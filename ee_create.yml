@@ -1,6 +1,6 @@
 ---
 - name: Review custom virtualenvs and pull requirements
-  hosts: enva_tower
+  hosts: control
   become: true
   tasks:
     - name: Include venv role
